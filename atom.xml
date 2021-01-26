@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>FuYuewu&#39;s Blog</title>
   
-  <subtitle>write code and love life</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <subtitle>前 端 路 漫 漫</subtitle>
+  <link href="https://williamfu68.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://williamfu68.github.io/"/>
   <updated>2021-01-26T09:23:35.805Z</updated>
-  <id>http://example.com/</id>
+  <id>https://williamfu68.github.io/</id>
   
   <author>
-    <name>williamfu</name>
+    <name>williamfu68</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>My First Blog</title>
-    <link href="http://example.com/2021/01/25/My-first-blog/"/>
-    <id>http://example.com/2021/01/25/My-first-blog/</id>
+    <link href="https://williamfu68.github.io/2021/01/25/My-first-blog/"/>
+    <id>https://williamfu68.github.io/2021/01/25/My-first-blog/</id>
     <published>2021-01-25T12:45:06.000Z</published>
     <updated>2021-01-26T09:23:35.805Z</updated>
     
@@ -36,8 +36,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/01/25/hello-world/"/>
-    <id>http://example.com/2021/01/25/hello-world/</id>
+    <link href="https://williamfu68.github.io/2021/01/25/hello-world/"/>
+    <id>https://williamfu68.github.io/2021/01/25/hello-world/</id>
     <published>2021-01-25T11:37:58.281Z</published>
     <updated>2021-01-25T11:37:58.281Z</updated>
     
