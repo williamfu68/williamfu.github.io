@@ -2544,7 +2544,7 @@ a.fancybox {
   width: 50px;
   height: 24px;
   font-size: 0;
-  background-color: #8c8a8a;
+  background-color: #444950;
 }
 .mode-track-moon,
 .mode-track-sun {
@@ -2588,7 +2588,7 @@ a.fancybox {
   border-radius: 50%;
   width: 22px;
   height: 22px;
-  background-color: #fafafa;
+  background-color: #fefbe8;
   -webkit-transition: -webkit-transform 0.2s ease;
   -moz-transition: -moz-transform 0.2s ease;
   -o-transition: -o-transform 0.2s ease;
