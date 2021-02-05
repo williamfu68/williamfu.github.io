@@ -1059,7 +1059,7 @@ kbd {
   display: inline-block;
   margin: 0 0.4rem;
   font-size: 1em;
-  color: #f00;
+  color: #f5f6f7;
   -webkit-animation: footerHeartBeat 1.2s infinite;
   -moz-animation: footerHeartBeat 1.2s infinite;
   -o-animation: footerHeartBeat 1.2s infinite;
@@ -2432,55 +2432,6 @@ kbd {
   color: var(--color-gray-400);
   border-top: 1px dashed var(--color-gray-300);
 }
-.back2top {
-  position: fixed;
-  right: 0;
-  bottom: 5vh;
-  -webkit-transition: -webkit-transform 0.2s ease;
-  -moz-transition: -moz-transform 0.2s ease;
-  -o-transition: -o-transform 0.2s ease;
-  -ms-transition: -ms-transform 0.2s ease;
-  transition: transform 0.2s ease;
-  -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  -o-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  transform: translateX(100%);
-  cursor: pointer;
-}
-.back2top--show {
-  -webkit-transform: translateX(-100%);
-  -moz-transform: translateX(-100%);
-  -o-transform: translateX(-100%);
-  -ms-transform: translateX(-100%);
-  transform: translateX(-100%);
-}
-.back2top--hide {
-  -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  -o-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  transform: translateX(100%);
-}
-.back2top__icon {
-  display: block;
-  font-size: 1.2rem;
-  line-height: 1;
-  color: #49b1f5;
-  -webkit-transition: color 0.2s ease;
-  -moz-transition: color 0.2s ease;
-  -o-transition: color 0.2s ease;
-  -ms-transition: color 0.2s ease;
-  transition: color 0.2s ease;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-.back2top__icon:hover {
-  color: #fc6423;
-}
 a.fancybox {
   cursor: zoom-in;
 }
@@ -2681,19 +2632,6 @@ a.fancybox {
 .gallery img {
   margin-bottom: 10px;
   width: 220px;
-}
-.exturl__icon {
-  margin: 0 0.1em 0 0.3em;
-  font-size: 0.8em;
-  color: #aaa;
-}
-.exturl__link {
-  white-space: normal;
-  word-wrap: break-word;
-  word-break: break-word;
-}
-.footer .exturl__icon {
-  color: #fff;
 }
 .comments {
   margin: 1.5rem 0 0;
