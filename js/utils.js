@@ -606,3 +606,34 @@ Stun.utils = Stun.$u = {
         $.when.apply(null, imgDefereds).then(callback)
     }
 }
+
+// 建站时长
+let busuanzi = document.querySelector('.busuanzi');
+busuanzi.insertAdjacentHTML('afterend', '<div id="ageOfSite"></div>');
+let textEle = document.querySelector('#ageOfSite');
+
+function timer(time) {
+    let nowTime = +new Date();
+    let PastTime = +new Date(time);
+    let times = (nowTime - PastTime) / 1000; //剩余时间的总秒数 1秒 = 1000毫秒
+    let y = parseInt(times / 60 / 60 / 24 / 365); // 年
+    y = y < 10 ? '0' + y : y;
+    let d = parseInt(times / 60 / 60 / 24); // 天
+    d = d < 10 ? '0' + d : d;
+    let h = parseInt(times / 60 / 60 % 24); // 小时
+    h = h < 10 ? '0' + h : h;
+    let mi = parseInt(times / 60 % 60); // 分钟
+    mi = mi < 10 ? '0' + mi : mi;
+    let s = parseInt(times % 60); // 秒
+    s = s < 10 ? '0' + s : s;
+
+    if (y < 1) {
+        textEle.innerText = ' 小破站已苟活 ' + d + ' 天 ' + h + ' 时 ' + mi + ' 分 ' + s + ' 秒';
+    } else {
+        textEle.innerText = ' 小破站已苟活 ' + y + ' 年 ' + d + ' 天 ' + h + ' 时 ' + mi + ' 分 ' + s + ' 秒';
+    }
+}
+
+setInterval(function() {
+    timer('2021-2-5');
+}, 1000);
